@@ -1,0 +1,424 @@
+*{
+    margin: 0;
+    margin: 0;
+
+    
+}
+body{
+   
+    width: 100%;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+.div-one{
+    width: 100%; height: 70px;
+    background-color: rgb(247, 248, 249);
+}
+.olx-logo{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.div-search-box{
+    width: 22% ;
+    height: 20px;
+    padding: 13px;
+    border: 2px solid rgb(76, 109, 113);
+    margin-left: 100px;
+    margin-top: -45px;
+    border-radius: 4px ;}
+
+span{
+    content:"";
+    
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: 2px solid;
+    border-color: transparent transparent #555555 #555555;
+    transform: rotate(-45deg);
+
+}
+.search-box{
+     
+   
+   height:5px ;
+   padding: 12px;  
+   margin-top: -30px;
+   font-size: 18px;
+    border: 0px  solid;
+    outline: none;
+    background-color: rgb(247, 248, 249);
+}
+.div-search-box:hover{
+    border: 1px solid rgb(35, 229, 219);
+    
+}
+
+
+.stuff-search-box{
+    width: 590px ;
+    height: 20px;
+    padding: 13px;
+    border: 2px solid rgb(76, 109, 113);
+    margin-left: 440px;
+    margin-top: -50px;
+    border-radius: 4px ;
+    background-color: rgb(247, 248, 249);
+}
+.stuff-search-box:hover{
+    border: 1px solid rgb(35, 229, 219);
+    
+}
+.login{
+    margin-left: 1140px;
+    margin-top: -40px;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.login:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+.sell{
+    margin-left: 1200px;
+    margin-top: -40px;
+    font-size: 20px;
+   border: 6px solid   ;
+    width: 100px;
+    height: 40px;
+    border-radius: 100px;
+    border-color: rgb(35, 229, 219) rgb(255, 206, 50) rgb(58, 119,225)  ;
+   
+}
+.sell:hover{
+    cursor: pointer;
+}
+.sell-text{
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(0, 47, 52);
+
+}
+
+
+
+
+
+.categorie{
+    margin-top: 27px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+.categorie:hover{
+    cursor: pointer;
+}
+
+.downward-arrow{
+    content:"";
+    
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: 2px solid;
+    border-color: transparent transparent #555555 #555555;
+    transform: rotate(-45deg);
+    margin-top: -22px;
+    margin-left: 180px;
+    font-weight: bold;
+}
+.downward-arrow:hover{
+    cursor: pointer;
+
+}
+.lists-links ul li{
+list-style: none;
+display: inline-block;
+margin: 10px;
+
+}
+.lists-links ul{
+    text-decoration: none;
+    margin-left: 185px;
+    margin-top: -30px;
+ 
+}
+.lists-links a{
+    text-decoration: none;
+    color: rgb(0, 47, 52);
+}
+.lists-links a:hover{
+    color: rgb(0, 164, 159);
+}
+
+
+ .add{ 
+    padding: 15px;
+    margin-left: 340px;
+}
+.more-on-mobile-phones{
+    width: 90%;
+    background-color: rgb(235, 238, 239);
+    height: 390px;
+    margin-left: 65px;
+}
+.mobile-text{
+    font-size: 27px;
+    padding: 20px;
+}
+.view-more{
+    float: right;
+    margin-top: -70px;
+    padding: 20px;
+    text-decoration: underline;
+    font-weight: bold;
+    color: rgb(0, 47, 52);
+}
+.view-more:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+.cards{
+    display: flex;
+}
+.card-one{
+    width: 23%;
+    height: 280px;
+    background-color: white;
+    margin-left: 25px;
+    border: 1px solid grey ;
+    border-radius: 4px;
+}
+.card-one:hover{
+    cursor: pointer;
+}
+
+
+.featured{
+    background-color: yellow;
+    width: 90px;
+    height: 17px;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+.phones{
+    margin-left: 110px;
+}
+.heart-icon{
+    width: 8%;
+    margin-left: 250px;
+    
+}
+.rs{
+    margin-top: 140px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.iphone{
+    color: grey;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.mar-15{
+    margin-top: 30px;
+    padding-left: 230px;
+font-size:10px ;
+color: grey;
+
+}
+
+.button{
+    background-color: white;
+    width: 100px;
+    height: 50px;
+    border: 1px solid rgb(0, 47, 52);
+    border-radius: 5px;
+    color: rgb(0, 47, 52);
+    font-weight: bold;
+   margin-top: 30px;
+   margin-left: 580px;
+    
+    
+}
+
+.button:hover{
+    border: 4px solid rgb(0, 47, 52) ;
+    cursor: pointer;
+}
+
+.websiteimg{
+    margin-top: 30px;
+    margin-left: 130px;
+}
+
+.app-div{
+    display: flex;
+    width: 113%;
+    height: 200px;
+    background-color:rgb(247, 248, 249);
+    margin-top: 60px;
+    margin-left: -60px;
+
+}
+h1{
+     margin-top: -170px;
+    margin-left: 600px; 
+
+}
+
+.app-div div .headOne{
+font-size: 32px;
+font-weight: bold;
+
+
+}
+.app-div div .para{
+margin-top: 10px;
+font-family: Arial, Helvetica, sans-serif;
+line-height: 25px;
+font-size: 20px;
+}
+
+
+.trytheolxapp-div{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    padding-right: 25px;
+    border-right: 2px solid gray;
+}
+.para-two{
+    font-weight: bold;
+    margin-top: 40px;
+    padding-left: 40px;
+}
+.playpic{
+    margin-top: 20px;
+    margin-left: 36px;
+    border-radius: 5px;
+    
+}
+.playpic:hover{
+    cursor: pointer;
+}
+.playpic-two{
+    border-radius: 5px;
+
+}
+.playpic-two:hover{
+    cursor: pointer;
+}
+.footer{
+width: 113%;
+height: 180px;
+background-color: rgb(235, 238, 239);
+margin-left: -60px;
+display: flex;
+border: 1px solid;
+border-color: grey  white white;
+
+}
+
+ .links{
+    text-decoration: none;
+    color: grey;
+    font-size: 12px;
+    padding: 25px;
+    margin-top: 20px;
+    
+
+}
+.links:hover{
+    cursor: pointer;
+    color: rgb(0, 47, 52);
+    
+}
+
+  ul li{
+    list-style-type: none;
+    }
+
+    
+    
+    
+ 
+    
+    
+
+
+
+.nav-list-footer{
+    margin-top: 20px;
+    
+}
+
+
+.footer-head
+{   text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    list-style: none;
+color: rgb(0, 47, 52);
+margin-left: 24px;
+
+}
+.folw-us{
+    font-size: 14px;
+    font-weight: bold;
+    margin: 20px;
+    padding-left: 70px
+
+}
+.socialmdia-icons{ 
+     margin-left: 30px; 
+     display: flex;
+
+}
+.socialmdia-icons:hover{
+    cursor: pointer;
+}
+
+.faceboolicon{
+    margin-left: 60px;
+}
+.twittericon{
+    margin-left: 10px;
+}
+.videoicon{
+    margin-left: 10px;
+    margin-top: -5px;
+}
+.instaicon{
+    margin-left: 5px;
+    margin-top: -18px;
+    
+}
+
+.icons-footers{
+    margin-top: 110px;
+    margin-left: -180px;
+}
+ .end-div{ 
+    width: 113%;
+    height: 60px;
+    background-color: rgb(0, 47, 52);
+    margin-bottom: 100px;
+    margin-left: -90px;
+}
+.div-end-para{
+    color: white;
+    margin-left: 40px;
+    padding: 13px;
+    font-size: 15px;
+}
+.copy-right{
+    margin-top: -145px;
+    text-align: right;
+    color: white;
+}
